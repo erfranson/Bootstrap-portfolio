@@ -1,0 +1,69 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 100px;
+  background: url(../../images/geometry2.png);
+}
+nav{
+	margin-bottom: 5%;
+}
+.navbar-inverse .navbar-brand{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:#4cf215;
+}
+.navbar-nav{
+	float: right;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+	color: #4cf215;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+	color:#fff;
+}
+.heading h1{
+	font-size: 35px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 60px;
+
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #080808;
+}
+.text-muted{
+	color: #fff;
+}
+
+.box img{
+	border: 2px solid #cccccc;
+	box-shadow: 0 0 1px 0 #888888;
+	margin-bottom:15px;
+}
+.form-group label{
+	padding-bottom: 10px;
+}
+footer p{
+	text-align: center;
+	padding-top:20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav{
+    	float: none;
+    }
+    
+    .box img{
+    	margin: 10px auto;
+    }
+}
