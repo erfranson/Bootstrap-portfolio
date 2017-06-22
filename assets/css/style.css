@@ -50,8 +50,20 @@ nav{
 	box-shadow: 0 0 1px 0 #888888;
 	margin-bottom:15px;
 }
+
 .form-group label{
 	padding-bottom: 10px;
+}
+.links{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.links a{
+	font-size: 40px;
+	color:  #080808;
+	padding-right: 15px;
+
 }
 footer p{
 	text-align: center;
@@ -66,4 +78,11 @@ footer p{
     .box img{
     	margin: 10px auto;
     }
+    .portfolio{
+	margin: 0 20%;
 }
+.heading h1{
+	text-align: center;
+
+}
+}   
